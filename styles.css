@@ -1,0 +1,152 @@
+body{
+    background: #111b21;
+    color: white;
+    font-family: sans-serif;
+}
+.chat{
+    display: flex;
+    gap: 16px;
+}
+.profile_pic{
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+}
+.chat_name_time{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.chat_name{
+    font-size: 16px;
+    margin: 0;
+}
+.chat_time{
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+
+.last_message{
+    font-size: 13px;
+    margin: 0;
+}
+dialog{
+    width: 420px;
+    height: 280px;
+    background: #2d2d3a;
+    border: none;
+    box-shadow:5px 6px 13px  rgb(0,0,0, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.title {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: white;
+}
+.title svg{
+    fill: white;
+}
+.title h1{
+    font-size: 22px;
+}
+.close{
+    background: #111b21;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow:5px 6px 13px  rgb(0,0,0, 0.5); 
+
+
+}
+.close svg{
+    fill: white;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.mb-3{
+    width: 420px;
+    height: 100px;
+    background: #2d3133;
+    border: none;
+    box-shadow:5px 6px 13px  rgba(63, 68, 75, 0.5);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;  
+    color: aliceblue; 
+    gap: 50px; 
+    row-gap: 20px ;
+
+
+
+}
+.dialog-actions{
+    width: 420px;
+    height: 200px;
+    background-color: rgb(51, 51, 63);
+    top: 50%;
+    left: 100%;
+    padding-left: 30px; 
+    display: flex;  
+}
+.clr-btn{
+    background: #414142;
+    display: flex;
+    position: absolute;
+    height: 28%;
+    width: 14%;
+    top: 120%;
+    right: 85%;
+    color: pink;
+    border: 3px solid gray;
+    border-radius: 3px;
+    font-weight: bold;
+   
+}
+.canc-conf{
+    display: flex;
+    position: absolute;
+    top: 120%;
+    left: 65%;
+    height: 27%;
+    width: 20%;
+    gap: 10px;
+}
+.conf-btn{
+    background: #02020a;
+    border: 3px solid gray;
+    border-radius: 3px;
+    font-weight: bold;
+    color: rgb(149, 108, 224);
+    height: 100%;
+    width: 90%;
+
+}
+.can-btn{
+    background-color: rgba(152, 182, 201, 0.63);
+    color: rgb(215, 208, 208);
+    font-weight: bold;
+    border-radius: 3px;
+}
